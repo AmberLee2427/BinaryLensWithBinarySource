@@ -1,0 +1,5 @@
+There is a hard-coded path to file nrutils.h near the top of 
+ _gpu_mag_maps_cuda.py and _gpu_image_centred.py that needs to be 
+changed for new install locations.
+
+
