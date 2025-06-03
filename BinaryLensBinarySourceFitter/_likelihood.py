@@ -1,9 +1,12 @@
 import numpy as np
 import sys
 
-def chi2_calc(self, p_in=None, source=[], use_spitzer_only=False, compute_uncertainties=False):
+def chi2_calc(self, p_in=None, source=None, use_spitzer_only=False, compute_uncertainties=False):
 
 	"""Compute chi^2 for all data sources or for a single source."""
+
+	if source is None:
+		source = []
 
 	if p_in is None:
 		p_in = self.p.copy()
