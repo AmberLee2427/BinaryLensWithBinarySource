@@ -29,6 +29,7 @@ Plotting helpers allow you to display caustics, trajectories and light curves.
 
 ## Dependencies
 
+
 The project depends on common scientific libraries (`numpy`, `scipy`, `matplotlib`), the MCMC sampler `emcee` (and optionally `zeus`), and GPU support via `pycuda` together with the compiled C code in `include/`. Additional modules such as `celerite` for Gaussian processes, `corner` for corner plots, `VBBinaryLensing` for lensing calculations and `Metropolis_Now` in the parallax module are also required.
 
 All of these packages are listed in `requirements.txt` which can be installed with:
