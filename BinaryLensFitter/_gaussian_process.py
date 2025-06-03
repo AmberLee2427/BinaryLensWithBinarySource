@@ -136,7 +136,7 @@ def gaussian_process_prior(self, p):
 	    return -np.inf
 	
 	
-def get_gaussian_proceess_bounds(self):
+def get_gaussian_process_bounds(self):
 
     bounds = []
 

@@ -62,7 +62,7 @@ class Binary_lens_mcmc():
 	from ._galactic import add_galactic_prior, galactic_ln_prior_prob, neg_skew_pdf, fit_skew_normal, fit_log_skew_normal, set_skew_parameters, skewnormal_prior
 	
 	from ._gaussian_process import add_gaussian_process_model, gaussian_process_prior, gaussian_process_ground_chi2, \
-				gaussian_process_spitzer_chi2, CeleriteModel, get_gaussian_proceess_bounds
+				gaussian_process_spitzer_chi2, CeleriteModel, get_gaussian_process_bounds
 
 	from ._VBBL import VBBL_magnification
 
