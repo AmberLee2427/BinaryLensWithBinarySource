@@ -1,0 +1,10 @@
+numpy
+scipy
+matplotlib
+emcee
+zeus
+pycuda
+celerite
+corner
+VBBinaryLensing
+Metropolis_Now
