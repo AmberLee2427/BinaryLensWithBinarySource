@@ -18,7 +18,7 @@ def add_gaussian_process_model(self,common=True, sites=None, model=None, default
         self.GP_default_params = default_params
     if sig0 is not None:
         self.GP_sig0 = sig0
-    if type(sites) == type('string'):
+    if isinstance(sites, str):
         self.gaussian_process_sites = [sites]
     elif sites is not None:
         self.gaussian_process_sites = sites	
