@@ -262,7 +262,7 @@ class Binary_lens_Binary_source_mcmc():
 	
 		# Earth position at perihelion?
 		self.parallax_xpos = self.primary.parallax_xpos
-                self.parallax_ypos = self.primary.parallax_ypos
+		self.parallax_ypos = self.primary.parallax_ypos
 
 		# Galactic rotation
 		self.galaxy_rotation_direction = self.primary.galaxy_rotation_direction
@@ -317,9 +317,9 @@ class Binary_lens_Binary_source_mcmc():
 		= []
 
 
-	def macth_data(self):
-		self.primary.data = self.secondary.data = self.data  	# is this a bad
-																# idea? 
+	def match_data(self):
+		"""Synchronize data and references across primary and secondary."""
+		self.primary.data = self.secondary.data = self.data     # is this a bad idea?
 		self.primary.reference_source = self.secondary.reference_source \
 		= self.reference_source	
 		self.primary.spitzer_data = self.secondary.spitzer_data
