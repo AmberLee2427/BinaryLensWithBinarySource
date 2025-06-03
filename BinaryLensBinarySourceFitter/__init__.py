@@ -262,7 +262,7 @@ class Binary_lens_Binary_source_mcmc():
 	
 		# Earth position at perihelion?
 		self.parallax_xpos = self.primary.parallax_xpos
-		self.parallax_ypos = self.primary.parallax_xpos
+                self.parallax_ypos = self.primary.parallax_ypos
 
 		# Galactic rotation
 		self.galaxy_rotation_direction = self.primary.galaxy_rotation_direction
